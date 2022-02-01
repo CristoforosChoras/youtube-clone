@@ -5,7 +5,7 @@
 @import url(./topContainer.css);
 @import url(./content.css);
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -26,10 +26,10 @@ body{
 
 #page{
     display: grid;
-    grid-template-columns: repeat(2, );
-    grid-template-rows: repeat(3,0.5fr 3fr 1fr);
+    grid-template-columns: repeat(3 );
+    grid-template-rows: repeat(3);
     grid-template-areas: 
-    "left top top"
-    left center
-    left content;
+    "2 1 1 "
+    "2 3"
+    "2 4";
 }

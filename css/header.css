@@ -1,6 +1,6 @@
 .search{
     border: 2px black solid;
-    grid-area: top;
+    grid-area: 1;
     background-color: red;
     height: 5vh;
     width: 80vw;
