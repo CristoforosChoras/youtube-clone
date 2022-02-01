@@ -1,3 +1,6 @@
 .content{
-    border: 2px black solid;
+    border: 2px yellow solid;
+    grid-area: content;
+    height: 75vh;
+    width: 80vw;
 }
