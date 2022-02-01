@@ -1,5 +1,21 @@
+/* for the search header we used display-grid on body */
 .search{
     border: 2px black solid;
     grid-area: header;
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div ul div {
+    display: flex;
+    left:10rem;
+    background-color: green;
+}
+header div ul {
+   position: relative;
+   left: 33rem;
+}
+header div ul li{
+    margin-left: 2rem;
 }
