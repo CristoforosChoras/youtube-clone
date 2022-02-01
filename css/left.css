@@ -1,14 +1,35 @@
+/* lft sidebar list styles and position */
 .left{
     border: 2px black solid;
     grid-area: sidebar;
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    
 }
+/* targeting the li to give some space from top  */
 .left div ul li{
     margin-top: 1.8rem;
 }
+/* horizontal rule styles  */
 hr{ 
-    width: 100%;
+    width: 90%;
+    margin-left: 1rem;
+    border: 1px gray solid;
+    margin-top: 2rem;
+}
+/* heading position */
+h2{
+    margin-top: 1rem;
+}
+/* logo div position and dimensions */
+.logo{
+    position: relative;
+    left: 6rem;
+    bottom: 1rem;
+    width: 67%;
+}
+/* logo dimension  */
+img{
+    width: 70%;
+    height: 70;
 }

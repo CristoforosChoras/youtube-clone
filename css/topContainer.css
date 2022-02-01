@@ -1,5 +1,9 @@
 .topContainer{
-    border: 2px purple solid;
+    
     grid-area: topContainer;
     background-color: purple;
+}
+img{
+    width: 100%;
+    height: 70%;
 }
