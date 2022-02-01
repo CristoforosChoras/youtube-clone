@@ -2,4 +2,13 @@
     border: 2px black solid;
     grid-area: sidebar;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    
+}
+.left div ul li{
+    margin-top: 2rem;
+}
+hr{ 
+    width: 100%;
 }
