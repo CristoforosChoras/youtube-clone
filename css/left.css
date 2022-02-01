@@ -1,8 +1,8 @@
 .left{
     border: 2px black solid;
-    grid-area: 2;
-    height: 80vh;
-    width: 10vw;
+    grid-area: sidebar;
+    /* height: 80vh;
+    width: 15vw; */
     background-color: yellow;
     
 }

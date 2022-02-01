@@ -1,6 +1,6 @@
 .topContainer{
     border: 2px purple solid;
-    grid-area: 3;
-    height: 25vh;
-    width: 80vw;
+    grid-area: topContainer;
+    /* height: 25vh;
+    width: 80vw; */
 }

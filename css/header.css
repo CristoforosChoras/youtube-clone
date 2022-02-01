@@ -1,7 +1,7 @@
 .search{
     border: 2px black solid;
-    grid-area: 1;
+    grid-area: header;
     background-color: red;
-    height: 5vh;
-    width: 80vw;
+    /* height: 5vh;
+    width: 80vw; */
 }
