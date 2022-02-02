@@ -6,12 +6,12 @@
 }
 .channel{
     width: 87vw;
-    height: 40vh;
+    height: 50vh;
     background-color: green;
 }
 .image{
     width: 87vw;
-    height: 23vh;
+    height: 30.6vh;
     background-color: purple;
     background-image: url(../images/backgroundimg.jpeg);
     background-size:    100% 100%;                     
@@ -20,15 +20,15 @@
 }
 .details{
     width: 87vw;
-    height: 12vh;
+    height: 13vh;
     background-color: red;
     display: flex;
-    ;
+    justify-content: space-around;
     align-items: center;
 }
 .navbar{
     width: 87vw;
-    height: 5vh;
+    height: 6.4vh;
     background-color: white;
 }
 .navbar ul{
@@ -39,23 +39,35 @@
     margin-left: 1rem;
 }
 .png{
-    width: 6rem;
-    height: 6rem;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
     background-color:blue ;
     background-image: url(../images/logo-channel.jpg);
-    background-size:    100% 100%;                     
+    background-size: 100% 100%;                     
     background-repeat:   no-repeat;
     background-position: top center;
 }
-/* .subscribers{
-    background-color: blue;
-    position: relative;
-    left: 7rem;
-} */
+.button-bell{
+    display: flex;
+}
+.subscribe{
+    border:  none;
+    background: white;
+    color: black;
+    padding: 0.4rem 1.5rem;
+    text-decoration: none;
+    margin-left: 0.6rem;
+}
+.bell{
+
+    bottom: 9rem;
+    padding: 0.4rem ;
+    border: none;
+}
 .videos{
     background-color: white;
 }
