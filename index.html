@@ -1,122 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/styles.css">
-        <title>Youtube-clone</title>
-    </head>
-    <body>
-    <!-- for all the page i will use the display-grid and i gave an id name on my main element #page -->
-        <!-- <main class="page"> -->
-    <!-- youtube nav top -->
-            <header class="search">
-                <div>
-                    <input type="search" name="&#x1F50E;" id="" placeholder="search " >
-                    <button>&#x1F50E;</button>
-                </div>
-                <div>
-                    <ul>
-                        <div>
-                            <li>&#127909;</li>
-                            <li>&#x25a6;</li>
-                            <li>&#128276;</li>
-                            <li><span>&#x24CD;</span></li>
-                        </div>
-                    </ul>
-                </div>
-            </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Youtube-clone</title>
+  </head>
+  <!-- i will target the body to use the display-grid. -->
+  <!-- display-grid with 2 columns and 3 rows-->
+  <!-- 1st column will be the sidebar menu and 2nd will be the header &topContainer & the content -->
+  <!-- for the rows i have header & topContainer & content-->
+  <body>
+    <!-- youtube top header menu  -->
+    <header class="search">
+      <div>
+        <input type="search" name="&#x1F50E;" id="" placeholder="search " />
+        <button>&#x1F50E;</button>
+      </div>
+      <div>
+        <ul>
+          <div>
+            <li>&#127909;</li>
+            <li>&#x25a6;</li>
+            <li>&#128276;</li>
+            <li><span>&#x24CD;</span></li>
+          </div>
+        </ul>
+      </div>
+    </header>
     <!-- left sidebar menu is the section with a class  left-->
-            <div class="left">
-                <div class="logo">
-                    <img src="images/logo.png" alt="">
-                </div>
-                <div class="home">
-                    <ul>
-                        <li>Home</li>
-                        <li>Explore</li>
-                        <li>Subscriptions</li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="library">
-                    <ul>
-                        <li>Library</li>
-                        <li>Hitory</li>
-                        <li>Your videos</li>
-                        <li>Watch later</li>
-                        <li>Liked videos</li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="subsriptions">
-                    <ul>
-                        <h2>Subscriptions</h2>
-                        <li>Cryptocapitalist</li>
-                        <li>Coin Bureau</li>
-                        <li>Giannis Andreou</li>
-                        <li>Alibakis Thanos</li>
-                        <li>euro2day</li>
-                        <li>Cryptovios</li>
-                        <li>Brycent</li>
-                        <li>Show 3 more</li>
-                    </ul>
-                </div>
-                <hr>
-                <div class="more">
-                    <ul>
-                        <h2>MORE FROM YOUTUBE</h2>
-                        <li>Youtube premium</li>
-                        <li>Films</li>
-                        <li>Gaming</li>
-                        <li>Live</li>
-                        <li>Sport</li>
-                    </ul>
-                </div>
-                <hr>
-                <div>
-                    <ul>
-                        <li>Settings</li>
-                        <li>Report history</li>
-                        <li>Help</li>
-                        <li>Send feedback</li>
-                    </ul>
-                </div>
-                <hr>
-                <div>
-                </div>
-            </div>
-        <!-- the channel menu and the background picture is the topContainer -->
-            <section class="topContainer">
-                <!--<img src="images/backgroundimg.jpeg" alt=""> -->
-                <div class="topMenu">
-                    <div>
-                            <h2 class="">Coin Bureau &#10003;</h2>
-                            <p>1.92M subscribers</p>
-                        <ul>
-                            <li>HOME</li>
-                            <li>VIDEOS</li>
-                            <li>PLAYLIST</li>
-                            <li>COMMUNITY</li>
-                            <li>CHANNELS</li>
-                            <li>ABOUT</li>
-                        </ul>
-                    </div>
-                    <img  class=channel src="images/unnamed.jpg" alt="">
-                    <div class="position">
-                        <a href="#" 
-                    class="button1"><i class="fab fa-facebook-square"></i>SUBSCRIBED</a>
-                    <button class="bell">&#128276;</button>
-                    </div>
-                    
-                    
-                </div>
-            </section>
-        <!-- the main section with the videos and the content of our client -->
-            <section class="content">
-                <article></article>
-            </section>
-        <!-- </main> -->
-    </body>
+    <section class="left">
+      <div class="logo">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <div class="home">
+        <ul>
+          <li>Home</li>
+          <li>Explore</li>
+          <li>Subscriptions</li>
+        </ul>
+      </div>
+      <hr />
+      <div class="library">
+        <ul>
+          <li>Library</li>
+          <li>Hitory</li>
+          <li>Your videos</li>
+          <li>Watch later</li>
+          <li>Liked videos</li>
+        </ul>
+      </div>
+      <hr />
+      <div class="subsriptions">
+        <ul>
+          <h2>Subscriptions</h2>
+          <li>Cryptocapitalist</li>
+          <li>Coin Bureau</li>
+          <li>Giannis Andreou</li>
+          <li>Alibakis Thanos</li>
+          <li>euro2day</li>
+          <li>Cryptovios</li>
+          <li>Brycent</li>
+          <li>Show 3 more</li>
+        </ul>
+      </div>
+      <hr />
+      <div class="more">
+        <ul>
+          <h2>MORE FROM YOUTUBE</h2>
+          <li>Youtube premium</li>
+          <li>Films</li>
+          <li>Gaming</li>
+          <li>Live</li>
+          <li>Sport</li>
+        </ul>
+      </div>
+      <hr />
+      <div>
+        <ul>
+          <li>Settings</li>
+          <li>Report history</li>
+          <li>Help</li>
+          <li>Send feedback</li>
+        </ul>
+      </div>
+      <hr />
+      <div></div>
+    </section>
+    <!-- the section topContainer has a background picture and a div with the channel-menu -->
+    <section class="topContainer">
+      <div class="channelMenu">
+        <div>
+          <h2 class="">Coin Bureau &#10003;</h2>
+          <p>1.92M subscribers</p>
+          <ul>
+            <li>HOME</li>
+            <li>VIDEOS</li>
+            <li>PLAYLIST</li>
+            <li>COMMUNITY</li>
+            <li>CHANNELS</li>
+            <li>ABOUT</li>
+          </ul>
+        </div>
+        <img class="channel-logo" src="images/unnamed.jpg" alt="" />
+        <div class="position">
+          <a href="#" class="subscribe"
+            ><i class="fab fa-facebook-square"></i>SUBSCRIBED</a
+          >
+          <button class="bell">&#128276;</button>
+        </div>
+      </div>
+    </section>
+    <!-- the main section with the videos and the content of our client -->
+    <section class="content">
+      <article></article>
+    </section>
+  </body>
 </html>

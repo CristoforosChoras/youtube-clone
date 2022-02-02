@@ -1,3 +1,4 @@
+/* topContainer grid area name background picture */
 .topContainer{
     grid-area: topContainer;
     background-color: purple;
@@ -8,7 +9,8 @@
     background-repeat:   no-repeat;
     background-position: top center;
 }
-.topMenu{
+/* channel menu position and styles  */
+.channelMenu{
     position: relative;
     top: 15rem;
     width: 100%;
@@ -16,16 +18,19 @@
     background-color:gray;
     margin-top: 3.2rem;
 }
-.topMenu div ul{
+/* } targeting ul for display */
+.channelMenu div ul{
     display: flex;
 }
-.topMenu div ul li{
+/* targeting the li for position */
+.channelMenu div ul li{
     position: relative;
     left:3rem;
     top: 4rem;
     margin-left: 6rem;
 }
-.channel{
+/* channel-logo styles and size */
+.channel-logo{
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
@@ -34,12 +39,14 @@
     bottom: 4rem;
     left: 7rem;
 }
-.topMenu div h2 , p{
+/*  targeting the h2 and the p for position  */
+.channelMenu div h2 , p{
     position: relative;
     left: 15rem;
     top: 2rem;
 }
-.button1{
+/* subscribe button position and styles*/
+.subscribe{
     position: relative;
     left: 75rem;
     bottom: 9rem;
