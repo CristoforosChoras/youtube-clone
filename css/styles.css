@@ -16,8 +16,8 @@ body{
     height: 200vh;
     width: 100vw;
     display: grid;
-    grid-template-columns:  0.4fr 2fr ;
-    grid-template-rows:  0.1fr 0.5fr 2fr; 
+    grid-template-columns:  0.29fr 2fr ;
+    grid-template-rows:  3.5rem 0.2fr 0.8fr; 
     grid-template-areas: 
     "sidebar header "
     "sidebar topContainer"

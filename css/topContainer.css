@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
     background-image: url(../images/backgroundimg.jpeg);
-    background-size:    100rem 18rem;                     
+    background-size:    105rem 25rem;                     
     background-repeat:   no-repeat;
     background-position: top center;
 }
 .topMenu{
     position: relative;
-    top: 10rem;
+    top: 15rem;
     width: 100%;
     height: 45%;
     background-color:gray;
