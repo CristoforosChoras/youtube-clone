@@ -1,8 +1,54 @@
+/* menu grid area name and size using flex to align the divs*/
 .menu{
-    width:100vw;
-    height: 5vh;
+    width:99vw;
+    height: 6vh;
     grid-area: menu ;
-    background-color: red;
-
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+/* size for the logo and position */
+.logo{
+    width: 120px;
+    height: 56px;
+    position: relative;
+    right: 3rem;
+}
+/* search bar styles and position  */
+.search{
+    display: flex;
+}
+.search input{
+    width: 35.75rem;
+    height: 2.5rem;
+    border: 1px gray solid;
+    border-radius: 1%;
+    font-size: 20px;
+    color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: 0;
+}
+.search button{
+    height: 2.5rem;
+    width: 4rem;
+    border: 1px gray solid;
+    border-radius: 2%;
+    background-color: white;
+}
+/* login list styles and align items */
+.login ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.8rem;
+    position: relative;
+    left: 8rem;
+}
+
+
