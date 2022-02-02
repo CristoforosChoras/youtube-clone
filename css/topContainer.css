@@ -22,7 +22,7 @@
 .topMenu div ul li{
     position: relative;
     left:3rem;
-    top: 5rem;
+    top: 4rem;
     margin-left: 6rem;
 }
 .channel{
@@ -31,10 +31,11 @@
     border-radius: 100%;
     background-color: blue;
     position: relative;
-    bottom: 3rem;
+    bottom: 4rem;
     left: 7rem;
 }
-.topMenu div h2{
+.topMenu div h2 , p{
     position: relative;
-    left: 20rem;
+    left: 15rem;
+    top: 2rem;
 }
