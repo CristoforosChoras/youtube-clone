@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     background-image: url(../images/backgroundimg.jpeg);
-    background-size:    105rem 25rem;                     
+    background-size:    106rem 24rem;                     
     background-repeat:   no-repeat;
     background-position: top center;
 }
@@ -26,7 +26,7 @@
 .channelMenu div ul li{
     position: relative;
     left:3rem;
-    top: 4rem;
+    top: 3rem;
     margin-left: 6rem;
 }
 /* channel-logo styles and size */
@@ -36,14 +36,14 @@
     border-radius: 100%;
     background-color: blue;
     position: relative;
-    bottom: 4rem;
+    bottom: 4.6rem;
     left: 7rem;
 }
 /*  targeting the h2 and the p for position  */
 .channelMenu div h2 , p{
     position: relative;
     left: 15rem;
-    top: 2rem;
+    top: 1rem;
 }
 /* subscribe button position and styles*/
 .subscribe{
