@@ -1,0 +1,6 @@
+.sidebar{
+    width: 15vw;
+    height: 195vh;
+    grid-area: sidebar;
+    background-color: black;
+}

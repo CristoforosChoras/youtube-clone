@@ -1,58 +1,8 @@
-/* for the search header we used display-grid on body */
-.search{
-    width: 100vw;
-    height: 6vh;
-    border: 2px black solid;
-    grid-area: header;
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* targeting the div inside the ul  with flex to align the list */
-header div ul div {
-    height: 4rem;
-    width: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: green; */
-}
-/* targeting the ul  for positioning on the left side in our header */
-header div ul {
-   position: relative;
-   left: 20rem;
-}
-/* targeting the li inside our header to give some space  */
-header div ul li{
-    margin-left: 2rem;
-}
-/* input dimensions and styles */
-header div input{
-    width: 35rem;
-    height: 2.5rem;
-    border: 1px gray solid;
-    border-radius: 1%;
-    font-size: 20px;
-    color: black;
-    background-repeat: no-repeat;
-    background-position: center;
-    outline: 0;
-} 
-/* button dimensions and style*/
-header div button{
-    height: 2.5rem;
-    border: 1px gray solid;
-    border-radius: 2%;
-    background-color: white;
-}
-/* align the input search with the button  */
-header div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-span{
-    background-color: white;
-    border-radius: 100%;
+.menu{
+    width:100vw;
+    height: 5vh;
+    grid-area: menu ;
+    background-color: red;
+
+    
 }
