@@ -2,17 +2,18 @@
     width: 87vw;
     height: 244vh;
     grid-area: content;
-    background-color: blue;
+    background-color: #f1f1f1;
+    
 }
 .channel{
     width: 87vw;
     height: 47.6vh;
-    background-color: green;
+    
 }
 .image{
     width: 87vw;
     height: 30.6vh;
-    background-color: purple;
+   
     background-image: url(../images/backgroundimg.jpeg);
     background-size:    100% 100%;                     
     background-repeat:   no-repeat;
@@ -21,7 +22,7 @@
 .details{
     width: 87vw;
     height: 13vh;
-    background-color: red;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -1,20 +1,37 @@
-.videos div{
+.videos img{
     width: 210px;
     height: 117px;
-    background-color: red;
-    display: flex;
+    
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    
 }
 .videos{
     width: 1284px;
-    height: 1140px;
+    height: 1000px;
     background-color: blanchedalmond;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    flex-grow: 1;
+    gap: none ;
     position: relative;
     left: 15rem;
 }
+
+.videos div{
+    width: 210px;
+    height: 74px;
+   
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1px 10px;
+    
+
+}
+/* .videos div{
+    position: absolute;
+    right: ;
+} */

@@ -2,7 +2,7 @@
     width: 13vw;
     height: 244vh;
     grid-area: sidebar;
-    background-color: yellow;
+    
     display: flex;
     flex-direction: column;
    
