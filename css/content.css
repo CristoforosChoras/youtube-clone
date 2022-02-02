@@ -1,6 +1,33 @@
 .content{
-    width: 84vw;
-    height: 144vh;
+    width: 87vw;
+    height: 244vh;
     grid-area: content;
     background-color: blue;
 }
+.channel{
+    width: 87vw;
+    height: 40vh;
+    background-color: green;
+}
+.image{
+    width: 87vw;
+    height: 23vh;
+    background-color: purple;
+}
+.navbar{
+    background-color: white;
+}
+
+.details{
+    width: 87vw;
+    height: ;
+    background-color: red;
+}
+
+.png{
+    background-color: white;
+}
+.videos{
+    background-color: white;
+}
+
