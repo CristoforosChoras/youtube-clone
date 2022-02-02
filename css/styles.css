@@ -2,10 +2,11 @@
 @import url(./var.css);
 @import url(./header.css);
 @import url(./left.css);
-@import url(./topContainer.css);
+@import url(./topContainer.css); 
 @import url(./content.css);
 *{
     margin: 0;
+    /* padding: 0; */
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: 0.4s;
@@ -13,13 +14,16 @@
 /* body grid areas and template for more details check the html comments */
 body{
     font-family:'Roboto', sans-serif;
-    height: 200vh;
     width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-columns:  13vw 88vw ;
-    grid-template-rows:  6vh 34vh 160vh; 
+    grid-template-columns:  12vw 88vw ;
+    grid-template-rows:  6vh  94vh; 
     grid-template-areas: 
-    "sidebar header "
-    "sidebar topContainer"
-    "sidebar content"; 
+    "header header "
+    "sidebar content"
+    ; 
 } 
+ul{
+    list-style-type: none;
+}

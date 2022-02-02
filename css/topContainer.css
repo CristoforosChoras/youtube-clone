@@ -1,11 +1,12 @@
 /* topContainer grid area name background picture */
 .topContainer{
+    width: 80vw;
     grid-area: topContainer;
     background-color: purple;
     display: flex;
     flex-direction: column;
     background-image: url(../images/backgroundimg.jpeg);
-    background-size:    106rem 24rem;                     
+    background-size:    100rem 24rem;                     
     background-repeat:   no-repeat;
     background-position: top center;
 }

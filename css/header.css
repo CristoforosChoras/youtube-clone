@@ -1,5 +1,7 @@
 /* for the search header we used display-grid on body */
 .search{
+    width: 100vw;
+    height: 6vh;
     border: 2px black solid;
     grid-area: header;
     /* background-color: red; */
