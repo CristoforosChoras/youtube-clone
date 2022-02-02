@@ -15,12 +15,13 @@
     background-color: purple;
 }
 .navbar{
+    width: 87vw;
+    height: 4vh;
     background-color: white;
 }
-
 .details{
     width: 87vw;
-    height: ;
+    height: 12vh;
     background-color: red;
 }
 
