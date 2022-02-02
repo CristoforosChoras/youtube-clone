@@ -13,21 +13,49 @@
     width: 87vw;
     height: 23vh;
     background-color: purple;
-}
-.navbar{
-    width: 87vw;
-    height: 4vh;
-    background-color: white;
+    background-image: url(../images/backgroundimg.jpeg);
+    background-size:    100% 100%;                     
+    background-repeat:   no-repeat;
+    background-position: top center;
 }
 .details{
     width: 87vw;
     height: 12vh;
     background-color: red;
+    display: flex;
+    ;
+    align-items: center;
 }
-
-.png{
+.navbar{
+    width: 87vw;
+    height: 5vh;
     background-color: white;
 }
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    display: flex;
+    margin-left: 1rem;
+}
+.png{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color:blue ;
+    background-image: url(../images/logo-channel.jpg);
+    background-size:    100% 100%;                     
+    background-repeat:   no-repeat;
+    background-position: top center;
+}
+/* .subscribers{
+    background-color: blue;
+    position: relative;
+    left: 7rem;
+} */
 .videos{
     background-color: white;
 }
