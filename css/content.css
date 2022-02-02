@@ -6,7 +6,7 @@
 }
 .channel{
     width: 87vw;
-    height: 50vh;
+    height: 47.6vh;
     background-color: green;
 }
 .image{
@@ -28,15 +28,23 @@
 }
 .navbar{
     width: 87vw;
-    height: 6.4vh;
+    height: 4vh;
     background-color: white;
+    display: flex;
+    justify-content:flex-start ;
+    
 }
 .navbar ul{
     display: flex;
+    position: relative;
+    left: 8rem;
+    bottom: 8px;
 }
 .navbar ul li{
     display: flex;
-    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.5rem;
 }
 .png{
     width: 80px;
@@ -50,11 +58,14 @@
     background-size: 100% 100%;                     
     background-repeat:   no-repeat;
     background-position: top center;
+    position: relative;
+    right: 2rem;
 }
+
 .button-bell{
     display: flex;
 }
-.subscribe{
+.btn{
     border:  none;
     background: white;
     color: black;
@@ -63,12 +74,15 @@
     margin-left: 0.6rem;
 }
 .bell{
-
     bottom: 9rem;
     padding: 0.4rem ;
     border: none;
 }
 .videos{
     background-color: white;
+}
+.subscribers , p{
+    position: relative;
+    right: 28rem;
 }
 
