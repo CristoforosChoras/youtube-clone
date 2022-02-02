@@ -39,3 +39,24 @@
     left: 15rem;
     top: 2rem;
 }
+.button1{
+    position: relative;
+    left: 75rem;
+    bottom: 9rem;
+    border:  none;
+    background: white;
+    color: black;
+    padding: 0.4rem 1.5rem;
+    text-decoration: none;
+    margin-left: 0.6rem;
+}
+.bell{
+    position: relative;
+    left: 75rem;
+    bottom: 9rem;
+    padding: 0.4rem ;
+    border: none;
+}
+.position{
+    display: flex;
+}
