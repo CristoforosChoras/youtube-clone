@@ -1,22 +1,17 @@
 .videos img{
     width: 210px;
     height: 117px;
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    
+
 }
 .videos{
     width: 1284px;
     height: 1000px;
-    background-color: blanchedalmond;
+    background-color: #f1f1f1;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
-    gap: none ;
+    gap: 4px;
     position: relative;
     left: 15rem;
 }
@@ -26,12 +21,7 @@
     height: 74px;
    
     display: flex;
-    flex-flow: row wrap;
-    gap: 1px 10px;
+    flex-wrap: wrap;
     
 
 }
-/* .videos div{
-    position: absolute;
-    right: ;
-} */
