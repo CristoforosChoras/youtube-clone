@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300&display=swap');
 @import url(./var.css);
 @import url(./header.css);
-@import url(./left.css);
-@import url(./topContainer.css);
+@import url(./sidebar.css);
 @import url(./content.css);
+@import url(./videos.css);
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: 0.4s;
 }
-/* body grid areas and template for more details check the html comments */
 body{
-    font-family:'Roboto', sans-serif;
-    height: 200vh;
-    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 99vw;
+    height: 250vh;
     display: grid;
-    grid-template-columns:  13vw 88vw ;
-    grid-template-rows:  6vh 34vh 160vh; 
+    grid-template-columns: repeat(2, 13vw 87vw);
+    grid-template-rows: repeat(2, 6vh 244vh );
     grid-template-areas: 
-    "sidebar header "
-    "sidebar topContainer"
-    "sidebar content"; 
-} 
+    "menu menu"
+    "sidebar content";
+}
+

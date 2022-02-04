@@ -1,0 +1,28 @@
+.sidebar{
+    width: 13vw;
+    height: 244vh;
+    grid-area: sidebar;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+/* targeting the li to give some space from top  */
+.sidebar div ul li{
+    margin-top: 1.6rem;
+    padding: 8px 24px;
+}
+/* horizontal rule styles  */
+hr{ 
+    width: 85%;
+    margin-left: 1rem;
+    border: 1px gray solid;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+/* heading position */
+h3 {
+    padding: 8px 35px ;
+    position: relative;
+    right: 16px;
+}

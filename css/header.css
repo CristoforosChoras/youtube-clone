@@ -1,33 +1,25 @@
-/* for the search header we used display-grid on body */
+/* menu grid area name and size using flex to align the divs*/
+.menu{
+    width:99vw;
+    height: 6vh;
+    grid-area: menu ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* size for the logo and position */
+.logo{
+    width: 120px;
+    height: 56px;
+    position: relative;
+    right: 3rem;
+}
+/* search bar styles and position  */
 .search{
-    border: 2px black solid;
-    grid-area: header;
-    /* background-color: red; */
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-/* targeting the div inside the ul  with flex to align the list */
-header div ul div {
-    height: 4rem;
-    width: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: green; */
-}
-/* targeting the ul  for positioning on the left side in our header */
-header div ul {
-   position: relative;
-   left: 20rem;
-}
-/* targeting the li inside our header to give some space  */
-header div ul li{
-    margin-left: 2rem;
-}
-/* input dimensions and styles */
-header div input{
-    width: 35rem;
+.search input{
+    width: 35.75rem;
     height: 2.5rem;
     border: 1px gray solid;
     border-radius: 1%;
@@ -36,21 +28,27 @@ header div input{
     background-repeat: no-repeat;
     background-position: center;
     outline: 0;
-} 
-/* button dimensions and style*/
-header div button{
+}
+.search button{
     height: 2.5rem;
+    width: 4rem;
     border: 1px gray solid;
     border-radius: 2%;
     background-color: white;
 }
-/* align the input search with the button  */
-header div{
+/* login list styles and align items */
+.login ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-span{
-    background-color: white;
-    border-radius: 100%;
+.login ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.8rem;
+    position: relative;
+    left: 8rem;
 }
+
+
