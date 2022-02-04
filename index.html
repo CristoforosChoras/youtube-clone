@@ -5,36 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Youtube-clone</title>
+    <title>Mytube-clone</title>
   </head>
-  <!-- i will target the body to use the display-grid. -->
-  <!-- display-grid with 2 columns and 3 rows-->
-  <!-- 1st column will be the sidebar menu and 2nd will be the header &topContainer & the content -->
-  <!-- for the rows i have header & topContainer & content-->
   <body>
-    <!-- youtube top header menu  -->
-    <header class="search">
-      <div>
-        <input type="search" name="&#x1F50E;" id="" placeholder="search " />
-        <button>&#x1F50E;</button>
-      </div>
-      <div>
-        <ul>
-          <div>
+    <!-- menu has 1 container(div with class menu ) and inside 3 divs.To align the items inside i used display flex and align items center in header.css file -->
+      <div class="menu">
+        <div class="logo">
+          <img class="logo" 
+          src="images/logo.png"
+          alt="logo">
+        </div>
+        <div class="search">
+          <input type="search">
+          <button>&#x1F50E;</button>
+        </div>
+        <div class="login">
+          <ul>
             <li>&#127909;</li>
             <li>&#x25a6;</li>
             <li>&#128276;</li>
-            <li><span>&#x24CD;</span></li>
-          </div>
-        </ul>
+            <li>&#x24CD;</li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <!-- left sidebar menu is the section with a class  left-->
-    <section class="left">
-      <div class="logo">
-        <img src="images/logo.png" alt="" />
-      </div>
-      <div class="home">
+      <section class="sidebar">
+        <div>
         <ul>
           <li>Home</li>
           <li>Explore</li>
@@ -54,7 +49,7 @@
       <hr />
       <div class="subsriptions">
         <ul>
-          <h2>Subscriptions</h2>
+          <h3>Subscriptions</h3>
           <li>Cryptocapitalist</li>
           <li>Coin Bureau</li>
           <li>Giannis Andreou</li>
@@ -68,7 +63,7 @@
       <hr />
       <div class="more">
         <ul>
-          <h2>MORE FROM YOUTUBE</h2>
+          <h3>MORE FROM YOUTUBE</h3>
           <li>Youtube premium</li>
           <li>Films</li>
           <li>Gaming</li>
@@ -86,62 +81,330 @@
         </ul>
       </div>
       <hr />
-      <div></div>
-    </section>
-    <!-- the section topContainer has a background picture and a div with the channel-menu -->
-    <section class="topContainer">
-      <div class="channelMenu">
-        <div>
-          <h2 class="">Coin Bureau &#10003;</h2>
-          <p>1.92M subscribers</p>
-          <ul>
-            <li>HOME</li>
-            <li>VIDEOS</li>
-            <li>PLAYLIST</li>
-            <li>COMMUNITY</li>
-            <li>CHANNELS</li>
-            <li>ABOUT</li>
-          </ul>
-        </div>
-        <img class="channel-logo" src="images/logo-channel.jpg" alt="" />
-        <div class="position">
-          <a href="#" class="subscribe"
-            ><i class="fab fa-facebook-square"></i>SUBSCRIBED</a
-          >
-          <button class="bell">&#128276;</button>
-        </div>
+      <div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
-    </section>
-    <!-- the main section with the videos and the content of our client -->
-    <footer class="content">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </footer>
+      </section>
+      <section class="content">
+        <div class="channel">
+          <div class="image"></div>
+          <div class="details">
+              <div class="png">
+              </div>
+              <div><h2 class="subscribers">Coin Bureau &#10003;</h2>
+                  <p>1.92M subscribers</p>
+              </div>
+              <div class="button-bell">
+                <a href="#" class="btn">
+                <i class="fab fa-facebook-square">
+                </i>SUBSCRIBED</a>
+                <button class="bell">&#128276;</button>
+              </div>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li>HOME</li>
+              <li>VIDEOS</li>
+              <li>PLAYLIST</li>
+              <li>COMMUNITY</li>
+              <li>CHANNELS</li>
+              <li>ABOUT</li>
+            </ul>
+          </div>
+        </div>
+        <div class="videos">
+          <div>
+            <img src="images/portofolio.jpg" alt="">
+              <div>
+                <h4>Crypto Mining Hearing: What Politicians Have Planned!! 🇺🇸</h4>
+                112K views
+                17 hours ago</div>
+            </img>
+          </div>
+          <div>
+            <img src="images/metavese.jpg" alt="">
+              <div>
+                <h4>Terra: LUNA & UST Potential!! Where To in 2022??
+                </h4>
+                154K views 
+                1 day ago
+                </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/mqdefault_6s.webp" alt="">
+              <div>
+                  <h4>Start of Crypto WINTER?! What You NEED To Know!!
+                  </h4>
+                      382K views 
+                      3 days ago 
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/sxt.jpg" alt="">
+              <div><h4>
+                Crypto News: Regulation, BTC, ETH, Opensea Exploit & MORE!!</h4>
+                191K views 
+                2 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/web3.jpg" alt="">
+              <div>
+                <h4>Start of Crypto WINTER?! What You NEED To Know!!
+                </h4>
+                  382K views 
+                  3 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/stackingcoins.jpg" alt="">
+              <div>
+                <h4>Enjin Ecosystem: ENJ, EFI & More!! Any Potential?! 🤔
+                </h4>
+                165K views 
+                4 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/portofolio.jpg" alt="">
+              <div>
+                <h4>The Flippening: Will It Happen?? Everything You NEED To Know!!</h4>
+                216K views 
+                5 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/metavese.jpg" alt="">
+              <div><h4>
+                It's HERE!! Digital Dollar Report: What It Means For CRYPTO!!</h4>
+                274K views 
+                6 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/nfts&more.jpg" alt="">
+              <div>
+                <h4>TOP 5 BEST Crypto Tax Tools For 2022!! 💯
+                </h4>
+                  98K views 
+                  7 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/cryptocard.jpg" alt="">
+              <div>
+                <h4>Avalanche: Could AVAX CRUSH it in 2022?! Deep Dive!!</h4>
+                  189K views
+                  8 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/coinbureau.jpg" alt="">
+              <div>
+                <h4>Crypto News: BTC CRASH, Crypto.com Hack, CBDCs, NFTs & MORE!!</h4>
+                  299K views
+                  9 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/metavese.jpg" alt="">
+              <div>
+                <h4>Ethereum: ETH Potential in 2022!! This You CANT MISS!
+                  </h4>
+                  386K views
+                  10 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/web3.jpg" alt="">
+              <div>
+                <h4>GameFi: This You NEED To Know!! Next Hidden GEMS!!
+                  </h4>
+                  190K views
+                  11 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/portofolio.jpg" alt="">
+              <div><h4>Crypto Mining Hearing: What Politicians Have Planned!! 🇺🇸</h4>
+                112K views
+                17 hours ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/stackingcoins.jpg" alt="">
+              <div>
+                <h4>Terra: LUNA & UST Potential!! Where To in 2022??
+                </h4>
+                154K views
+                1 day ago
+                </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/mqdefault_6s.webp" alt="">
+              <div>
+                  <h4>Start of Crypto WINTER?! What You NEED To Know!!
+                  </h4>
+                      382K views 
+                      3 days ago 
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/sxt.jpg" alt="">
+              <div><h4>
+                Crypto News: Regulation, BTC, ETH, Opensea Exploit & MORE!!</h4>
+                191K views 
+                2 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/web3.jpg" alt="">
+              <div>
+                <h4>Start of Crypto WINTER?! What You NEED To Know!!
+                </h4>
+                  382K views
+                  3 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/2022.jpg" alt="">
+              <div>
+                <h4>Enjin Ecosystem: ENJ, EFI & More!! Any Potential?! 🤔
+                </h4>
+                165K views 
+                4 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/metavese.jpg" alt="">
+              <div>
+                <h4>The Flippening: Will It Happen?? Everything You NEED To Know!!</h4>
+                216K views 
+                5 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/2022.jpg" alt="">
+              <div><h4>
+                It's HERE!! Digital Dollar Report: What It Means For CRYPTO!!</h4>
+                274K views 
+                6 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/coinbureau.jpg" alt="">
+              <div>
+                <h4>TOP 5 BEST Crypto Tax Tools For 2022!! 💯
+                </h4>
+                  98K views 
+                  7 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/stackingcoins.jpg" alt="">
+              <div>
+                <h4>Avalanche: Could AVAX CRUSH it in 2022?! Deep Dive!!
+                </h4>
+                  189K views
+                  8 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/cryptocard.jpg" alt="">
+              <div>
+                <h4>Crypto News: BTC CRASH, Crypto.com Hack, CBDCs, NFTs & MORE!!</h4>
+                  299K views
+                  9 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/web3.jpg" alt="">
+              <div>
+                <h4>Ethereum: ETH Potential in 2022!! This You CANT MISS!
+                </h4>
+                  386K views
+                  10 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/nfts&more.jpg" alt="">
+              <div>
+                <h4>GameFi: This You NEED To Know!! Next Hidden GEMS!!
+                </h4>
+                  190K views
+                  11 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/portofolio.jpg" alt="">
+              <div>
+                <h4>Ethereum: ETH Potential in 2022!! This You CANT MISS!</h4>
+                  386K views
+                  10 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/stackingcoins.jpg" alt="">
+              <div>
+                <h4>GameFi: This You NEED To Know!! Next Hidden GEMS!!
+                </h4>
+                  190K views
+                  11 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/sxt.jpg" alt="">
+              <div>
+                <h4>Ethereum: ETH Potential in 2022!! This You CANT MISS!
+                </h4>
+                  386K views
+                  10 days ago
+              </div>
+            </img>
+          </div>
+          <div>
+            <img src="images/metavese.jpg" alt="">
+              <div>
+                <h4>GameFi: This You NEED To Know!! Next Hidden GEMS!!
+                </h4>
+                  190K views
+                  11 days ago
+              </div>
+            </img>
+          </div>
+      </section>
   </body>
 </html>

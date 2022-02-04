@@ -1,0 +1,27 @@
+.videos img{
+    width: 210px;
+    height: 117px;
+
+}
+.videos{
+    width: 1284px;
+    height: 1000px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    left: 15rem;
+}
+
+.videos div{
+    width: 210px;
+    height: 74px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
