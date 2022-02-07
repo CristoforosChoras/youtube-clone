@@ -12,20 +12,29 @@
     /* align-items: center; */
     gap: 4px;
     position: relative;
-    left: 15rem;
-    
+    left: 11rem;
 }
-.videos  div{
+.videos div h4{
     width: 210px;
     height: 74px;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative; 
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* position: relative;  */
+  
+    /* bottom: 5.6rem; */
 }
 .videos .upload{
     width: 1280px;
     height: 56px;
     background-color: black;
-    position: relative;
+    /* position: relative; */
     /* top: 6rem; */
 }
+.videos div img{
+    margin-bottom: 0.8rem;
+}
+span{
+    position: relative;
+    bottom: 1rem;
+}
+
