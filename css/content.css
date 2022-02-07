@@ -6,19 +6,19 @@
 }
 .channel{
     width: 86vw;
-    height: 47.6vh;
+    height: 41.5vh;
 }
 .image{
     width: 86vw;
-    height: 30.6vh;
+    height: 27.5vh;
     background-image: url(../images/banner.jpg);
     background-size:    100% 100%;                     
     background-repeat:   no-repeat;
-    background-position: top center;
-}
+    background-position: top center; 
+} 
 .details{
     width: 86vw;
-    height: 13vh;
+    height: 11vh;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -26,7 +26,7 @@
 }
 .navbar{
     width: 86vw;
-    height: 4vh;
+    height: 3vh;
     background-color: white;
     display: flex;
     justify-content:flex-start ;
