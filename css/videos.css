@@ -12,7 +12,8 @@
     /* align-items: center; */
     gap: 4px;
     position: relative;
-    left: 11rem;
+    left: 11.2rem;
+    top: 1.5rem;
 }
 .videos div h4{
     width: 210px;
@@ -26,9 +27,17 @@
 .videos .upload{
     width: 1280px;
     height: 56px;
-    background-color: black;
-    /* position: relative; */
-    /* top: 6rem; */
+    display: flex;
+}
+.upl{
+    position: relative;
+    right: 1.2rem;
+    top: 0.3rem;
+}
+.sort{
+    position: relative;
+    left: 68.8rem;
+    top: 1rem;
 }
 .videos div img{
     margin-bottom: 0.8rem;
@@ -37,4 +46,5 @@ span{
     position: relative;
     bottom: 1rem;
 }
+
 
