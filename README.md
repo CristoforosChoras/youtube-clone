@@ -37,7 +37,7 @@ This project is static, that means there are no functioning buttons or so*.
 
 ### How to use this Project
 
-lorem ........
+this project has education purposes
 
 ##### Developed With
 
@@ -63,11 +63,9 @@ LinkedIn: [your linkedIn](https://www.linkedin.com/in/christoforos-choras-213220
 
 ### Used Tools
 
-- [icons](https://)
-- [Canva](https://www.canva.com/)
-- [npm](https://www.npmjs.com/)
+
 - [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [ColorZilla](https://www.colorzilla.com/chrome/)
+
 
 ---

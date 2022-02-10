@@ -8,8 +8,6 @@
     background-color: #f1f1f1;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 4px;
     position: relative;
     left: 11.2rem;
@@ -18,11 +16,6 @@
 .videos div h4{
     width: 210px;
     height: 74px;
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* position: relative;  */
-  
-    /* bottom: 5.6rem; */
 }
 .videos .upload{
     width: 1280px;
