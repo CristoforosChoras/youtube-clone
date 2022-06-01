@@ -21,18 +21,23 @@
   left: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: rgb(2, 2, 2);
+  background-color: rgb(149, 140, 140);
   border-radius: 5rem;
   transition: 0.4s;
 }
 .slider::before {
   position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   content: "";
   border-radius: 100%;
   left: 0.25rem;
   bottom: 0.35;
-  height: 1rem;
-  background-color: white;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(0, 18, 88);
 }
 .switch input:checked + .slider {
   background-color: grey;
