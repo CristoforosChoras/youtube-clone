@@ -11,7 +11,7 @@
 }
 .switch {
   position: relative;
-  width: 3.8rem;
+  width: 4.2rem;
   height: 2rem;
 }
 .slider {
@@ -21,25 +21,26 @@
   left: 0;
   bottom: 0;
   cursor: pointer;
-  background-color: rgb(149, 140, 140);
+  background-color: rgb(255, 252, 252);
   border-radius: 5rem;
+  border: 2px solid black;
   transition: 0.4s;
 }
 .slider::before {
   position: absolute;
-  top: 0;
+  top:-0.07rem;
   right: 0;
   left: 0;
   bottom: 0;
   content: "";
   border-radius: 100%;
-  bottom: 0.35;
+  
   width: 2rem;
   height: 2rem;
-  background-color: rgb(0, 18, 88);
+  background-color: rgb(106, 106, 106);
 }
 .switch input:checked + .slider {
-  background-color: grey;
+  background-color: rgb(25, 25, 25);
 }
 .switch input:checked + .slider::before {
   transform: translateX(2rem);
