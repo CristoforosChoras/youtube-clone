@@ -64,7 +64,7 @@
 }
 .btn{
     border:  none;
-    background:#f1f1f1;
+    background:#fffdfd;
     color: black;
     padding: 0.4rem 1.5rem;
     text-decoration: none;
@@ -74,6 +74,7 @@
     bottom: 9rem;
     padding: 0.4rem ;
     border: none;
+    bbackground:#fffdfd;
     
 }
 .videos{
